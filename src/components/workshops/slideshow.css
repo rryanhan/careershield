@@ -1,0 +1,52 @@
+.slider-main{
+    margin-top:100px;
+}
+.customButtonStyleLeft {
+    margin-left: 345px;
+
+}
+.customButtonStyleRight {
+    margin-right: 345px;
+
+}
+
+
+.slider-overlay{
+    position: relative;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+
+    
+.slider-rectangle{
+    width: 377px;
+    height: 212px;
+    border-radius: 25px;
+    background: #E59A4B;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+}    
+
+
+.slider-body{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    position: absolute;
+    margin-left: 12.5px;
+    margin-top: 10px;
+}
+
+.description-text{
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.bottom-buttons{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.interest{
+    margin-left: 10px;
+}

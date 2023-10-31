@@ -19,10 +19,6 @@ const Navbar = () => {
         <img src={resources}></img>
         <img src={profile}></img>
       </div>
-
-
-
-
     </div>
   )
 }
