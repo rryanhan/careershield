@@ -50,3 +50,16 @@
     font-weight: 400;
     line-height: normal;
 }
+
+.searchbar{
+    margin-top: 5px;
+}
+
+.workshop-button{
+    margin-left: 20px;
+}
+
+.workplace-index{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}

@@ -3,6 +3,7 @@ import Navbar from '../navbar/Navbar'
 import Slider from "react-slick";
 import SimpleSlider from './SimpleSlider';
 import workshopex from "../../assets/workshoppics/workshopex.png"
+import youthworkplace from "../../assets/workshoppics/youthworkplace.png"
 import workshopsearch from "../../assets/workshoppics/workshopearch.png"
 import workshopbutton from "../../assets/workshoppics/workshopbutton.png"
 import "./workshops.css"
@@ -23,9 +24,14 @@ const Workshops = () => {
         <div className='workshop-list'>
             <div className='search-for'>Search for a Workshop</div>
             <div>
-                <img src={workshopsearch}></img>
-                <img src={workshopbutton}></img>
-                <img src={workshopex}></img>
+                <div className="searchbar">
+                    <img src={workshopsearch}></img>
+                    <img className='workshop-button' src={workshopbutton}></img>
+                </div>
+                <div className='workplace-index'>
+                    <div className="workshopex"><img src={workshopex}></img></div>
+                    <div className="youthworkplace"><img src={youthworkplace}></img></div>
+                </div>
             </div>
         </div>
 

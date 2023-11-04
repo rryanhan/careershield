@@ -1,0 +1,38 @@
+.legal-main{
+    margin-top: 50px;
+}
+
+.legal-header{
+    color: #E59A4B;
+    margin-left: 110px;
+    font-family: Manrope;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.legal-title{
+    color: #000;
+    text-align: center;
+    font-family: Sora;
+    font-size: 35px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+    
+}
+.legal-description{
+    color: #000;
+    text-align: center;
+    font-family: Sora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: -80px;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
