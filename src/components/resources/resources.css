@@ -1,0 +1,191 @@
+.jcont {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+}
+
+.Rbox {
+width: 380px;
+height: 240px;
+flex-shrink: 0;
+border-radius: 25px;
+border: 1px solid #DADAD9;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px #F0C08D;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.header1 {
+    margin-left: 50px;
+}
+
+.Rbox p{
+width: 353px;
+color: #000;
+font-family: Sora;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+margin-top: 10px;
+margin-left: 20px;
+}
+
+.search-bar-container {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.container p {
+color: #000;
+font-family: Sora;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.tagbar {
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid #DADAD9;
+    background: #FFF;
+    min-width: 540px; /* Set the width to 50% for the left search bar */
+    height: 38px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0; /* Remove margin to align with the left edge */
+    margin-left: 50px;
+  }
+
+  .tagbar p {
+    margin: 0;
+    margin-right: 400px;
+    color: rgba(0, 0, 0, 0.53);
+color: rgba(0, 0, 0, 0.53);
+font-family: Sora;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+.tagcont {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tag1,
+  .tag2,
+  .tag3 {
+    flex-shrink: 0;
+    border-radius: 25px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px; /* Reduce margin between tags */
+  }
+  
+  .tag1 p,
+  .tag2 p,
+  .tag3 p {
+    margin: 0;
+    width: 145px;
+    color: rgba(0, 0, 0, 0.53);
+    font-family: Sora;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5px;
+    padding: 0 5px; /* Reduce padding around text */
+  }
+  
+
+.tag1 {
+width: 80px;
+height: 20px;
+flex-shrink: 0;
+border-radius: 25px;
+border: 1px solid #F0C08D;
+background: #F0C08D;
+margin-left: 40px;
+}
+
+.tag1 p{
+width: 145px;
+color: rgba(0, 0, 0, 0.53);
+font-family: Sora;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 5px;
+}
+
+.tag1 img {
+    margin-left: 10px;
+}
+
+
+.tag2 {
+    width: 105px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid #ecc194;
+    background: #ecc194;
+    display: flex; /* Use flex display to center content */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+  }
+  
+  .tag2 p {
+    margin: 0; /* Remove default margin to center the text within the bar */
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px; /* Vertically center the text */
+    color: rgba(0, 0, 0, 0.53);
+    text-align: center; /* Center the text horizontally within the bar */
+  }
+
+  .tag3 {
+    width: 105px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid #ecc194;
+    background: #ecc194;
+    display: flex; /* Use flex display to center content */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+  }
+  
+  .tag3 p {
+    margin: 0; /* Remove default margin to center the text within the bar */
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px; /* Vertically center the text */
+    color: rgba(0, 0, 0, 0.53);
+    text-align: center; /* Center the text horizontally within the bar */
+  }
+
+.tag1, .tag2, .tag3 {
+    margin-left: 5px;
+}
+
+.Desc p {
+width: 353px;
+height: 99px;
+flex-shrink: 0;
+color: #000;
+font-family: Sora;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 166.667% */
+}

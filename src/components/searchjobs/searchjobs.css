@@ -1,0 +1,319 @@
+.header1,
+.container,
+.big-container,
+search-bar-container,
+.pt-search-bar,
+.l-search-bar,
+.filter-bar-container,
+.filter,
+.job-opp,
+.box,
+.box2,
+.image-container,
+.tag1,
+.tag2,
+.job1,
+.job2,
+.job3 {
+  margin: 0 50px; /* 0 top/bottom margin and 50px left/right margin */
+}
+
+.header{
+    color: #E59A4B;
+    font-family: Manrope;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.container p {
+    margin: 0 1rem;
+}
+
+.container p:first-child {
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+  }
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.job-opp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+width: 45%;
+border-radius: 25px 25px 25px 25px;
+border: 1px solid #eee;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+display: flex-wrap;
+min-height: 200px;
+  align-items: flex-start; 
+  justify-content: center; /* Center horizontally */
+  text-align: center; /* Center text horizontally within the box */
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.image-container {
+    display: flex; /* Display images horizontally */
+    margin: 0 auto;
+    color: #000;
+font-family: Sora;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 20px;
+  }
+
+.box p {
+    margin: 0;
+}
+
+.box img {
+    width: 20px;
+    height: 20px;
+}
+
+.tags-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tag2 {
+    width: 105px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid #c46c0d;
+    background: #cb710f;
+    display: flex; /* Use flex display to center content */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+  }
+  
+  .tag2 p {
+    margin: 0; /* Remove default margin to center the text within the bar */
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px; /* Vertically center the text */
+    color: rgba(0, 0, 0, 0.53);
+    text-align: center; /* Center the text horizontally within the bar */
+  }
+
+  .jobcont {
+    margin-top: 20px;
+  }
+  
+
+.job1{
+    width: 540px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid #DADAD9;
+    background: #DADAD9;
+    display: flex; /* Use flex display to center content */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    margin-bottom: 20px;
+}
+
+.job1 p{
+color: #000;
+font-family: Sora;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.job2{
+    width: 540px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid #DADAD9;
+    background: #DADAD9;
+    display: flex; /* Use flex display to center content */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    margin-bottom: 20px;
+}
+
+.job2 p{
+color: #000;
+font-family: Sora;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.box2 {
+    width: 45%;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid #eee;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex-wrap;
+    min-height: 200px;
+      align-items: flex-start; 
+      justify-content: center; /* Center horizontally */
+      text-align: center; /* Center text horizontally within the box */
+      margin: 20px 0;
+      padding: 20px;
+}
+
+.box2 p {
+    margin: 0;
+}
+
+.box2 img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.search-bar-container{
+    background-color: DADAD9;
+    border-radius: 25px 25px 0px 0px;
+    height: 8vh;
+    width: 95vw;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.filter-bar-container{
+    background-color: #FFF;
+    border: 1px solid #DADAD9;
+    border-radius: 0px 0px 25px 25px;
+    height: 60px;
+    width: 1325px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    padding: 0px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.filter{
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: center; /* Center text horizontally within the box */
+    display: flex;
+}
+
+.filter img {
+    width: 20px; /* Set the width to your desired size (e.g., 50px) */
+    height: 20px; /* Allow the height to adjust proportionally */
+  }
+
+.filter p{
+color: rgba(0, 0, 0, 0.53);
+font-family: Sora;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+  .pt-search-bar {
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid #DADAD9;
+    background: #FFF;
+    min-width: 540px; /* Set the width to 50% for the left search bar */
+    height: 38px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0; /* Remove margin to align with the left edge */
+  }
+  
+  .pt-search-bar p {
+    margin: 0;
+    margin-right: 300px;
+    color: rgba(0, 0, 0, 0.53);
+color: rgba(0, 0, 0, 0.53);
+font-family: Sora;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  
+  .pt-search-bar::before {
+    content: "🔍";
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  .pt-search-bar + .l-search-bar {
+    margin-left: 150px; /* Add margin between the two search bars */
+  }
+  
+  .l-search-bar {
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid #DADAD9;
+    background: #FFF;
+    min-width: 540px; /* Set the width to 50% for the right search bar */
+    height: 38px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0; /* Remove margin to align with the right edge */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  
+  .l-search-bar p {
+    margin: 0;
+    margin-right: 350px;
+    color: rgba(0, 0, 0, 0.53);
+    font-family: Sora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+      }
+  
+  
+  .l-search-bar::before {
+    content: "🌍"; /* Add a location icon using CSS content */
+    font-size: 24px; /* Adjust the icon size */
+    margin-right: 10px; /* Create space between the icon and text */
+  }
+
+  .big-container {
+    padding: 20px; /* Padding to create space inside the big container */
+    width: 1203;
+    height: 101px;
+    border: 1px solid #ccc; /* Border to define the big container */
+    border-radius: 10px; /* Rounded corners for a container effect */
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }

@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link to= "/Search-For-Jobs"><img src={work}></img></Link>
         <Link to= "/Workshops"><img src={workshops}></img></Link>
         <Link to= "/Legal"><img src={legal}></img></Link>
-        <img src={resources}></img>
+        <Link to="/Resource"><img src={resources}></img></Link>
         <img src={profile}></img>
       </div>
     </div>

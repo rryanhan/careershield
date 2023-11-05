@@ -2,17 +2,17 @@ import {useState} from "react"
 import "./aibot.css"
 import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css"
 import {MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator} from "@chatscope/chat-ui-kit-react";
-const API_KEY = "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"
+const API_KEY = "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"
 
 const systemMessage = { //  Explain things like you're talking to a software professional with 5 years of experience.
-    "role": "system", "content": "Explain things like you're talking to a software professional with 2 years of experience."
+    "role": "system", "content": "Explain like I am 2 years old."
   }
 
 
 const Aibot = () => {
     const [messages, setMessages] = useState([
         {
-          message: "Hello, I'm ChatGPT! Ask me anything!",
+          message: "Inquries about the workplace? Ask me anything!",
           sentTime: "just now",
           sender: "ChatGPT"
         }
@@ -55,12 +55,11 @@ const Aibot = () => {
         // Get the request body set up with the model we plan to use
         // and the messages which we formatted above. We add a system message in the front to'
         // determine how we want chatGPT to act. 
+        const textChat = apiMessages[apiMessages.length - 1];
+
         const apiRequestBody = {
           "model": "gpt-3.5-turbo",
-          "messages": [
-            systemMessage,  // The system message DEFINES the logic of our chatGPT
-            ...apiMessages // The messages from our chat with ChatGPT
-          ]
+          "messages": [{"role": "user", content: textChat.content}]
         }
     
         await fetch("https://api.openai.com/v1/chat/completions", 
@@ -87,17 +86,17 @@ const Aibot = () => {
     <div className="App">
       <div style={{ height: "500px", width: "1000px", marginTop:"100px", marginLeft:"auto", marginRight:"auto"}}>
         <MainContainer>
-          <ChatContainer>       
-            <MessageList 
+          <ChatContainer >       
+            <MessageList
               scrollBehavior="smooth" 
-              typingIndicator={isTyping ? <TypingIndicator content="ChatGPT is typing" /> : null}
+              typingIndicator={isTyping ? <TypingIndicator content="Legal Bot is typing" /> : null}
             >
               {messages.map((message, i) => {
                 console.log(message)
                 return <Message key={i} model={message} />
               })}
             </MessageList>
-            <MessageInput placeholder="Type message here" onSend={handleSend} />        
+            <MessageInput  placeholder="Type message here" onSend={handleSend} />        
           </ChatContainer>
         </MainContainer>
       </div>

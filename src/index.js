@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Searchjobs from "./components/searchjobs/Searchjobs"
 import Workshops from './components/workshops/Workshops';
 import Legal from "./components/legal/Legal"
+import Resource from "./components/resources/Resources"
 import App from './App';
 
 import './index.css';
@@ -34,14 +35,12 @@ import {
       path:"/Legal",
       element: <Legal/>
     },
+    {
+      path:"/Resource",
+      element:<Resource/>
+    }
   ]);
   
   ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
 );
-
-
-
- 
-
-
